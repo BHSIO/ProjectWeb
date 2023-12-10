@@ -13,8 +13,6 @@
 .film {
   width: 300px;
   height: 450px;
-  margin-left: 150Px;
-  margin-right: 150px;
   background-color: #ff2b63;
 }
 .pfilm{
@@ -73,6 +71,9 @@
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  height: 200px;
+  margin: 15px;
+  padding: 15px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -90,4 +91,77 @@
   align-items: stretch;
   width: auto;
   height: auto;
+}
+.competences{
+  background-color: #090E34;
+}
+.pourcent{
+  text-align: center;
+
+}
+.description_competence{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  
+}
+
+button{
+  margin-top: 15px;
+}
+.savoir_etre{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 15pxS;
+}
+fieldset {
+  padding:0 20px 20px 20px;
+  margin-bottom:10px;
+  border:1px solid #DF3F3F;
+  }
+ 
+ label {
+  margin-top:10px;
+  display:block;
+  }
+ label.inline {
+  display:inline;
+  margin-right:50px;
+  }
+ input, textarea, select, option {
+  background-color:#FFF3F3;
+  }
+ input, textarea, select {
+  padding:3px;
+  border:1px solid #F5C5C5;
+  border-radius:5px;
+  width:200px;
+  box-shadow:1px 1px 2px #C0C0C0 inset;
+  }
+ select {
+  margin-top:10px;
+  }
+ input[type=radio] {
+  background-color:transparent;
+  border:none;
+  width:10px;
+  }
+ input[type=submit], input[type=reset] {
+  width:100px;
+  margin-left:5px;
+  box-shadow:1px 1px 1px #D83F3D;
+  cursor:pointer;
+  }
+.align{
+  justify-content: space-around;
+  align-items: stretch;
+}
+body{
+  background-color: #090E34 !important;
+  color: yellow !important;
+}
+#restauration{
+  height: 500px;
+  width: 500px;
 }
