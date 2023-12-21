@@ -6,6 +6,7 @@ require('inc/header.php');
 require('inc/quisuisje.php');
 require('inc/competence.php');
 require('inc/experience.php');
+require('inc/formation.php');
 require('inc/contact.php');
 
 
