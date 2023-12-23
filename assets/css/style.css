@@ -162,9 +162,9 @@ body{
   background-color: #090E34 !important;
   color: yellow !important;
 }
-#restauration{
-  height: 500px;
-  width: 500px;
+.restauration{
+  height: 500px !important;
+  width: 500px !important;
 }
 .formulaire2 .error {
   text-align: center;
@@ -213,7 +213,7 @@ form {
   font-size: 4vw;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #0e0838;
+  color: white;
   margin-bottom: 50px;
 }
 
@@ -236,7 +236,7 @@ form {
 .backform form label {
   display: block;
   width: 100%;
-  color: white;
+  color: white !important;
   text-transform: uppercase;
   padding-top: 20px;
   font-size: 1.4vw;
@@ -332,5 +332,12 @@ form {
   margin-top: 150px;
 }
 label{
-  color: white;
+  color: white !important;
+}
+hr{
+  width: 75%;
+  color: yellow;
+}
+img{
+  height: 250px !important;
 }

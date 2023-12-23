@@ -1,6 +1,6 @@
 <?php
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=mysite',
+    $pdo = new PDO('mysql:host=10.10.11.102;dbname=mysite',
         'root',
         '',
         array(
