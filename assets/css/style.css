@@ -124,6 +124,7 @@ fieldset {
  label {
   margin-top:10px;
   display:block;
+  color: white;
   }
  label.inline {
   display:inline;
@@ -183,7 +184,7 @@ body{
   font-size: 4vw;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #0e0838;
+  color: white;
   margin-bottom: 50px;
 }
 .backform textarea {
@@ -235,7 +236,7 @@ form {
 .backform form label {
   display: block;
   width: 100%;
-  color: #0C0C3C;
+  color: white;
   text-transform: uppercase;
   padding-top: 20px;
   font-size: 1.4vw;
@@ -320,4 +321,16 @@ form {
 .d-block w-100{
   width: 100px;
   height: 100px;
+}
+.carousel-item{
+  justify-content: center !important;
+}
+#me{
+  height: 150px;
+}
+#top{
+  margin-top: 150px;
+}
+label{
+  color: white;
 }

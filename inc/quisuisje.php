@@ -5,14 +5,20 @@
     <div id="acceuil"></div>
     <div class="wrap">
     <section id="groupe1">
-        <h2 class="qui">Qui suis-je ?</h2>
-        <div class="bar"></div>
-        <div class="gauche">
-            <h3 id="titreblabla">Un "jeune" développeur | Administrateur réseau</h3>
-            <p id="blabla1">Etudiants à Caen Sup Sainte-Ursule, j'ai eu pour projet de crée un site retraçant mon parcours et mes envies</p>
-
-        </div>
         
+        <div class="bar"></div>
+        <div class="container text-center">
+    <div id="top" class="row">
+        <div class="col">
+        <h3 id="titreblabla">Un "jeune" développeur | Administrateur réseau</h3>
+            <p id="blabla1">Etudiants à Caen Sup Sainte-Ursule, j'ai eu pour projet de crée un site retraçant mon parcours et mes envies</p>
+        </div>
+        <div class="col">
+
+        <img id="me" src="assets/img/me.jfif">
+        </div>
+    </div>
+</div> 
     </section>
     
     <h1 class="onglet">Qui suis-je ?</h1>

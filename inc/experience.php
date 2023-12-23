@@ -7,7 +7,7 @@
         </div>
         <div class="col">
         <h3 class="">Restauration</h3>
-        <p class="">khjkhijkhijijijihiuhiughuygyuguigiuhiuhiuhiuguy</p>
+        <p class="">J'ai eu la chance de commencer mes premiers jobs en travaillant pour le groupe Barrière a Deauville j'ai effectuer deux saison chez eux une en 2015 en tant que runner et une en 2016 en tant que commis chef de rang. Les deux postes mon permis de développer l'esprit d'entreprise et le travail en équipe ansi que l'esprit de vente et de réponse a une demande de client.</p>
         </div>
     </div>
 </div>
@@ -16,7 +16,7 @@
     <div class="row">
         <div class="col">
         <h3 class="">Centre d'appel</h3>
-        <p class="">khjkhijkhijijijihiuhiughuygyuguigiuhiuhiuhiuguy</p>
+        <p class="">Par la suite j'ai travailler dans un centre d'appel dans la société IMA : Intermutuelle Assitance ou j'ai pu développer des compétences de gestion de crise et d'anaylse</p>
         </div>
         <div class="col">
 
@@ -32,7 +32,7 @@
         </div>
         <div class="col">
         <h3 class="">Développement web</h3>
-        <p class="">khjkhijkhijijijihiuhiughuygyuguigiuhiuhiuhiuguy</p>
+        <p class="">Enfin au début de ma deuxième année en tant que développeur web j'ai eu la chance d'être en alternance dans la société Qeenta Energie qui ma appris beaucoup de chose entre autre la gestion de projet et la mise en place de protocole informatique.Par la suite j'ai changer de formation je suis passé de développeur web à Assistant Webmarketing, au sein de cette formation j'ai eu la chance de travaillé pour l'ADRESS qui ma confié la tache de remettre l'outils de gestion Monday a jour et de le rendre utilisable pour les collaborateurs</p>
         </div>
     </div>
 </div>
