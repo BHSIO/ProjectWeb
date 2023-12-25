@@ -14,6 +14,8 @@
     $icones=$data["images"]["icones"];
     $me=$data["images"]["me"];
     
+    $titrejv=$data["titre"]["jeuxvideo"];
+    $imagesjv=$data["images"]["jeuxvideo"];
     ?>
     <div class="wrap">
     <section id="groupe1">
@@ -43,7 +45,7 @@
             </p>
         </div>
         <div class="imgcinema">
-             <img class="iconcinema" src="<?=$icones[0]?>">   
+             <img class="iconcinema" src="<?=$icones[0];?>">   
         </div>        
     </div>
     <div>
@@ -52,16 +54,16 @@
     <div class="container">
     <div class="row">
         <div class="col-lg-4">
-            <img class="film" src="<?=$imagesfilm[0]?>">
-            <p class="pfilm"><?=$titrefilm[0]?></p>
+            <img class="film" src="<?=$imagesfilm[0];?>">
+            <p class="pfilm"><?=$titrefilm[0];?></p>
         </div>
         <div class="col-lg-4">
-            <img class="film" src="<?=$imagesfilm[1]?>">
-            <p class="pfilm"><?=$titrefilm[1]?></p>
+            <img class="film" src="<?=$imagesfilm[1];?>">
+            <p class="pfilm"><?=$titrefilm[1];?></p>
         </div>
         <div class="col-lg-4">
-            <img class="film" src="<?=$imagesfilm[2]?>">
-            <p class="pfilm"><?=$titrefilm[2]?></p>
+            <img class="film" src="<?=$imagesfilm[2];?>">
+            <p class="pfilm"><?=$titrefilm[2];?></p>
         </div>
     </div>
     </div>
@@ -74,7 +76,7 @@
             </p>
         </div>
         <div class="imgcinema">
-             <img class="iconcinema" src="<?=$icones[1]?>">   
+             <img class="iconcinema" src="<?=$icones[1];?>">   
         </div>        
     </div>
 
@@ -82,16 +84,16 @@
 <div class="container">
 <div class="row">
     <div class="col-lg-4">
-        <img class="film" src="<?=$imagesmanga[0]?>">
-        <p class="pfilm"><?=$titremanga[0]?></p>
+        <img class="film" src="<?=$imagesmanga[0];?>">
+        <p class="pfilm"><?=$titremanga[0];?></p>
     </div>
     <div class="col-lg-4">
-    <img class="film" src="<?=$imagesmanga[1]?>">
-        <p class="pfilm"><?=$titremanga[1]?></p>
+    <img class="film" src="<?=$imagesmanga[1];?>">
+        <p class="pfilm"><?=$titremanga[1];?></p>
     </div>
     <div class="col-lg-4">
-        <img class="film" src="<?=$imagesmanga[2]?>">
-        <p class="pfilm"><?=$titremanga[2]?></p>
+        <img class="film" src="<?=$imagesmanga[2];?>">
+        <p class="pfilm"><?=$titremanga[2];?></p>
     </div>
 </div>
 </div>
@@ -104,7 +106,7 @@
             </p>
         </div>
         <div class="imgcinema">
-             <img class="iconcinema" src="assets/img/jeux-video.png">   
+             <img class="iconcinema" src="<?=$icones[2];?>">   
         </div>        
     </div>
     <div>
@@ -113,16 +115,16 @@
     <div class="container">
     <div class="row">
         <div class="col-lg-4">
-            <img class="film" src="https://www.cdiscount.com/pdt2/8/4/8/1/700x700/seb3701519712848/rw/pokemon-rouge-feu-jeu-gameboy-advance.jpg">
-            <p class="pfilm">1- Pokemon rouge</p>
+            <img class="film" src="<?=$imagesjv[0];?>">
+            <p class="pfilm"><?=$titrejv[0];?></p>
         </div>
         <div class="col-lg-4">
-            <img class="film" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/RaCbox.jpg/220px-RaCbox.jpg">
-            <p class="pfilm">2- Ratchet et Clank</p>
+            <img class="film" src="<?=$imagesjv[1];?>">
+            <p class="pfilm"><?=$titrejv[1];?></p>
         </div>
         <div class="col-lg-4">
-            <img class="film" src="https://image.jeuxvideo.com/images/pc/s/p/spcepc0f.jpg">
-            <p class="pfilm">3- Splinter cell</p>
+            <img class="film" src="<?=$imagesjv[2];?>">
+            <p class="pfilm"><?=$titrejv[2];?></p>
         </div>
     </div>
     </div>

@@ -8,6 +8,10 @@ titre:
   - 1- GTO
   - 2- Cowboy Beebop
   - 3- One piece
+  jeuxvideo:
+  - 1- Pokemon rouge
+  - 2- Ratchet et Clank
+  - 3- Splinter cell
 
 
 
@@ -20,8 +24,13 @@ images:
   - https://www.pika.fr/sites/default/files/images/livres/couv/9782811639457-001-T.jpeg
   - https://media.senscritique.com/media/000006478173/0/cowboy_bebop.jpg
   - https://www.glenat.com/sites/default/files/images/livres/couv/9782723488525-T.jpg
+  jeuxvideo:
+  - https://www.cdiscount.com/pdt2/8/4/8/1/700x700/seb3701519712848/rw/pokemon-rouge-feu-jeu-gameboy-advance.jpg
+  - https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/RaCbox.jpg/220px-RaCbox.jpg
+  - https://image.jeuxvideo.com/images/pc/s/p/spcepc0f.jpg
   icones:
   - assets/img/cinema.png
   - assets/img/manga.png
+  - assets/img/jeux-video.png
   me:
   - assets/img/me.jfif
