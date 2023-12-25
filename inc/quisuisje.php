@@ -3,6 +3,18 @@
     <body>
     <div id="balise"></div>
     <div id="acceuil"></div>
+    <?php 
+    require_once("yaml/yaml.php");
+
+    $data=yaml_parse_file('inc/images.yaml');
+    $titrefilm=$data["titre"]["film"];
+    $titremanga=$data["titre"]['manga'];
+    $imagesfilm=$data["images"]["film"];
+    $imagesmanga=$data["images"]["manga"];
+    $icones=$data["images"]["icones"];
+    $me=$data["images"]["me"];
+    
+    ?>
     <div class="wrap">
     <section id="groupe1">
         
@@ -15,7 +27,7 @@
         </div>
         <div class="col">
 
-        <img id="me" src="assets/img/me.jfif">
+        <img id="me" src="<?=$me[0]?>">
         </div>
     </div>
 </div> 
@@ -31,7 +43,7 @@
             </p>
         </div>
         <div class="imgcinema">
-             <img class="iconcinema" src="assets/img/cinema.png">   
+             <img class="iconcinema" src="<?=$icones[0]?>">   
         </div>        
     </div>
     <div>
@@ -40,16 +52,16 @@
     <div class="container">
     <div class="row">
         <div class="col-lg-4">
-            <img class="film" src="https://upload.wikimedia.org/wikipedia/fr/3/30/Le_Parrain_%28film%29.png">
-            <p class="pfilm">1- Le parrain</p>
+            <img class="film" src="<?=$imagesfilm[0]?>">
+            <p class="pfilm"><?=$titrefilm[0]?></p>
         </div>
         <div class="col-lg-4">
-            <img class="film" src="https://fr.web.img3.acsta.net/medias/nmedia/18/62/56/68/18651925.jpg">
-            <p class="pfilm">2- Nausicaä la valée du vent</p>
+            <img class="film" src="<?=$imagesfilm[1]?>">
+            <p class="pfilm"><?=$titrefilm[1]?></p>
         </div>
         <div class="col-lg-4">
-            <img class="film" src="https://musicart.xboxlive.com/7/67325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080">
-            <p class="pfilm">3- Star Wars III</p>
+            <img class="film" src="<?=$imagesfilm[2]?>">
+            <p class="pfilm"><?=$titrefilm[2]?></p>
         </div>
     </div>
     </div>
@@ -62,7 +74,7 @@
             </p>
         </div>
         <div class="imgcinema">
-             <img class="iconcinema" src="assets/img/manga.png">   
+             <img class="iconcinema" src="<?=$icones[1]?>">   
         </div>        
     </div>
 
@@ -70,16 +82,16 @@
 <div class="container">
 <div class="row">
     <div class="col-lg-4">
-        <img class="film" src="https://www.pika.fr/sites/default/files/images/livres/couv/9782811639457-001-T.jpeg">
-        <p class="pfilm">1- GTO</p>
+        <img class="film" src="<?=$imagesmanga[0]?>">
+        <p class="pfilm"><?=$titremanga[0]?></p>
     </div>
     <div class="col-lg-4">
-        <img class="film" src="https://media.senscritique.com/media/000006478173/0/cowboy_bebop.jpg">
-        <p class="pfilm">2- Cowboy Beebop</p>
+    <img class="film" src="<?=$imagesmanga[1]?>">
+        <p class="pfilm"><?=$titremanga[1]?></p>
     </div>
     <div class="col-lg-4">
-        <img class="film" src="https://www.glenat.com/sites/default/files/images/livres/couv/9782723488525-T.jpg">
-        <p class="pfilm">3- One piece</p>
+        <img class="film" src="<?=$imagesmanga[2]?>">
+        <p class="pfilm"><?=$titremanga[2]?></p>
     </div>
 </div>
 </div>

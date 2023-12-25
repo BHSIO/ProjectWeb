@@ -1,0 +1,27 @@
+title: list images
+titre:
+  film:
+  - 1-Le parrain
+  - 2- Nausicaä la valée du vent
+  - 3- Star Wars III
+  manga:
+  - 1- GTO
+  - 2- Cowboy Beebop
+  - 3- One piece
+
+
+
+images:
+  film:
+  - https://upload.wikimedia.org/wikipedia/fr/3/30/Le_Parrain_%28film%29.png
+  - https://fr.web.img3.acsta.net/medias/nmedia/18/62/56/68/18651925.jpg
+  - https://musicart.xboxlive.com/7/67325100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
+  manga:
+  - https://www.pika.fr/sites/default/files/images/livres/couv/9782811639457-001-T.jpeg
+  - https://media.senscritique.com/media/000006478173/0/cowboy_bebop.jpg
+  - https://www.glenat.com/sites/default/files/images/livres/couv/9782723488525-T.jpg
+  icones:
+  - assets/img/cinema.png
+  - assets/img/manga.png
+  me:
+  - assets/img/me.jfif
